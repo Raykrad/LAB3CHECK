@@ -10,4 +10,4 @@ main — stable version
 dev — current development
 feature/* — iividual improvements
 
-![Spellcheck](https://github.com/Raykrad/checkmate/workflows/spellcheck.yml/badge.svg?branch=main)
+![Spellcheck](https://github.com/Raykrad/LAB3CHECK/workflows/spellcheck.yml/badge.svg?branch=main)
