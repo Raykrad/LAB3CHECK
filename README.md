@@ -1,13 +1,13 @@
-Проект реализует консольную версию игры "Шашки" на языке Python.  
-Цель — демонстрация использования системы контроля версий Git в рамках учебной лабораторной работы.
+The project implements a cosole version of the game "Chec" in Pthon.
+The purpose is to demonstrate the use of the Git version control system as part of an educational laboratory.
 
-- Игровое поле 8×8
-- Ходы согласно классическим правилам шашек
-- Определение победителя
+The playing field is 8×8
+Moves according to the classic rules of checkers
+Determining the winner
+The development is based on the simplified Git Flow methodolo:
 
-Разработка ведётся по упрощённой методологии Git Flow:
-- `main` — стабильная версия
-- `dev` — текущая разработка
-- `feature/*` — отдельные улучшения
+main — stable version
+dev — current development
+feature/* — iividual improvements
 
 ![Spellcheck](https://github.com/Raykrad/checkmate/workflows/spellcheck.yml/badge.svg?branch=main)
