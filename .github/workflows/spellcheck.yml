@@ -1,0 +1,29 @@
+name: Spellcheck
+
+on:
+  pull_request:
+  push:
+    branches: [ main, master, checkmate, checkmate-main ]
+  workflow_dispatch:
+
+jobs:
+  cspell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install cspell
+        run: npm i -g cspell
+
+      - name: Run cspell
+        run: |
+          cspell --version
+          cspell lint \
+            "**/*.{md,txt,rst,js,ts,tsx,jsx,json,yml,yaml,py,go,java,kt,cs,cpp,c,h,html,css,scss}" \
+            --config cspell.json \
+            --no-progress

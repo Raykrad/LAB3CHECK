@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "language": "en,ru",
+  "allowCompoundWords": true,
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.git/**",
+    "**/vendor/**",
+    "**/*.lock",
+    "**/*.min.*",
+    "**/coverage/**"
+  ],
+  "words": [
+    "GitHub",
+    "README"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.md",
+      "language": "en,ru"
+    }
+  ]
+}
