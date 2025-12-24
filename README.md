@@ -12,3 +12,4 @@ feature/* — individual improvements
 
 [![Spellcheck](https://github.com/Raykrad/LAB3CHECK/actions/workflows/spellcheck.yml/badge.svg?branch=main)](https://github.com/Raykrad/LAB3CHECK/actions/workflows/spellcheck.yml)
 
+/
